@@ -5,7 +5,7 @@ node ('master'){
   sh 'ls'
   git url: 'https://github.com/gforcada/flake8-isort.git'
   sh 'ls'
-  //sh 'pip install -e .'
-  //sh 'pip install pytest testfixtures'
-  //sh 'python run_tests.py'
+  sh 'pip install -e .'
+  sh 'pip install pytest testfixtures'
+  sh 'python run_tests.py'
 }
