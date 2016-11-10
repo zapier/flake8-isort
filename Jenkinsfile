@@ -6,5 +6,5 @@ node ('master'){
   sh 'virtualenv-2.7 .'
   sh 'bin/pip install -e .'
   sh 'bin/pip install pytest testfixtures'
-  sh 'python run_tests.py'
+  sh 'bin/python run_tests.py'
 }
